@@ -1,0 +1,21 @@
+function plot_add_clr_bg()
+rectangle('Position',[3-0.5 2 7 0.25], 'FaceColor',[0.76,0.56,0.87], 'EdgeColor','none');hold on;
+rectangle('Position',[63-0.5 2 7 0.25], 'FaceColor',[0.76,0.56,0.87], 'EdgeColor','none');hold on;
+rectangle('Position',[100-0.5 2 11 0.25], 'FaceColor',[0.76,0.56,0.87], 'EdgeColor','none');hold on;
+rectangle('Position',[3-0.5 -0.5 7 2.5], 'FaceColor',[0.97,0.95,0.98], 'EdgeColor','none');hold on;
+rectangle('Position',[63-0.5 -0.5 7 2.5], 'FaceColor',[0.97,0.95,0.98], 'EdgeColor','none');hold on;
+rectangle('Position',[100-0.5 -0.5 11 2.5], 'FaceColor',[0.97,0.95,0.98], 'EdgeColor','none');hold on;
+rectangle('Position',[13-0.5 2 6 0.25], 'FaceColor',[1,0.57,0.18], 'EdgeColor','none');hold on;
+rectangle('Position',[28-0.5 2 6 0.25], 'FaceColor',[1,0.57,0.18], 'EdgeColor','none');hold on;
+rectangle('Position',[13-0.5 -0.5 6 2.5], 'FaceColor',[1,0.96,0.92], 'EdgeColor','none');hold on;
+rectangle('Position',[28-0.5 -0.5 6 2.5], 'FaceColor',[1,0.96,0.92], 'EdgeColor','none');hold on;
+rectangle('Position',[42-0.5 2 6 0.25], 'FaceColor',[0.24,0.83,0.91], 'EdgeColor','none');hold on;
+rectangle('Position',[55-0.5 2 6 0.25], 'FaceColor',[0.24,0.83,0.91], 'EdgeColor','none');hold on;
+rectangle('Position',[42-0.5 -0.5 6 2.5], 'FaceColor',[0.92,0.98,0.99], 'EdgeColor','none');hold on;
+rectangle('Position',[55-0.5 -0.5 6 2.5], 'FaceColor',[0.92,0.98,0.99], 'EdgeColor','none');hold on;
+rectangle('Position',[77-0.5 2 6 0.25], 'FaceColor',[0.93,0.7,0.07], 'EdgeColor','none');hold on;
+rectangle('Position',[93-0.5 2 6 0.25], 'FaceColor',[0.93,0.7,0.07], 'EdgeColor','none');hold on;
+rectangle('Position',[77-0.5 -0.5 6 2.5], 'FaceColor',[0.99,0.97,0.91], 'EdgeColor','none');hold on;
+rectangle('Position',[93-0.5 -0.5 6 2.5], 'FaceColor',[0.99,0.97,0.91], 'EdgeColor','none');hold on;
+rectangle('Position',[100-0.5 -0.5 3 2.5], 'FaceColor',[0.9,0.9,0.9], 'EdgeColor','none');hold on;
+rectangle('Position',[108-0.5 -0.5 3 2.5], 'FaceColor',[0.9,0.9,0.9], 'EdgeColor','none');hold on;
