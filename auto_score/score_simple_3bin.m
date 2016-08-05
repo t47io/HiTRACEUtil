@@ -1,8 +1,8 @@
-function sc = simple_score(d_dist, THRESHOLD)
+function sc = simple_score_3bin(d_dist, THRESHOLD)
 
 if ~exist('THRESHOLD','var') || isempty(THRESHOLD); THRESHOLD = 0.1; end;
 
-% 1-yes; 0-no; 0.5-uncertain; 0.6-partial
+% 1-yes; 0-no; 0.5-uncertain
 if d_dist(1) > THRESHOLD;
     sc = 0;
 else
