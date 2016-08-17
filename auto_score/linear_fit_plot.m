@@ -10,6 +10,8 @@ set(gca,'fontsize',16);
 
 if ~isempty(labels);
     legend('WT',labels{1},labels{2},'fit');
+    title([num2str(ratio*100), '% ', labels{1},' '],'fontweight','bold','fontsize',20);
 else
     legend('WT','trace-1','trace-2','fit');
+    title([num2str(ratio*100), '% trace-1 '],'fontweight','bold','fontsize',20);
 end;
