@@ -1,8 +1,9 @@
-function pairs = scan_bpp_pairs(bpp)
-CUTOFF = 1e-3;
+function [pairs, helix_len] = scan_bpp_pairs(bpp, CUTOFF)
+if ~exist('CUTOFF','var') || isempty(CUTOFF); CUTOFF = 1e-3; end;
 
 pairs_yes = zeros(2,0);
 pairs_no = zeros(2,0);
+helix_len = [];
 
 for i = 1:size(bpp,1);
     for j = (i+1):size(bpp,2);
@@ -19,6 +20,7 @@ for i = 1:size(bpp,1);
                 else
                     if len_scan > 2;
                         pairs_yes = [pairs_yes, pairs_temp];
+                        helix_len = [helix_len, len_scan];
                     else
                         pairs_no = [pairs_no, pairs_temp];
                     end;
