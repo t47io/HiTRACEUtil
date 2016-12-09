@@ -2174,8 +2174,8 @@ end
      p75 = p(2);
 
 % Calculate whisker endpoints.
-p = prctile(xSorted1group,[2.5 97.5]);
-% p = prctile(xSorted1group,[5 95]);
+% p = prctile(xSorted1group,[2.5 97.5]);
+p = prctile(xSorted1group,[5 95]);
 minw = p(1);
 maxw = p(2);
 
