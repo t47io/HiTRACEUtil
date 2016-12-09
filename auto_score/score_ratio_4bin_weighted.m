@@ -1,4 +1,4 @@
-function sc = score_ratio_4bin(d_dist, THETA, A, B)
+function sc = score_ratio_4bin_weighted(d_dist, THETA, A, B)
 
 if ~exist('THETA','var') || isempty(THETA); THETA = 0.1; end;
 if ~exist('A','var') || isempty(A); A = 0.4; end;
