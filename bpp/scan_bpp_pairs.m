@@ -18,7 +18,7 @@ for i = 1:size(bpp,1);
                     len_scan = len_scan + 1;
                     pairs_temp = [pairs_temp, [i+k; j-k]];
                 else
-                    if len_scan > 2;
+                    if len_scan == 2;
                         pairs_yes = [pairs_yes, pairs_temp];
                         helix_len = [helix_len, len_scan];
                     else
